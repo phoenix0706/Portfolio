@@ -1,0 +1,44 @@
+[
+
+    {
+      "name": "Fake News Detection",
+      "desc": "Exploring Fake News Detection using Python and NLP: Leveraged ISOT dataset, applied tokenization, stop words removal, lemmatization, and stemming. Built models with SVM algorithm, showcasing proficiency in Python, NLP, and classification",
+      "image": "/images/fakenews.png",
+      "category": "Machine Learning",
+      "links": {
+        "view": "",
+        "code": "https://github.com/phoenix0706/Fake-News-Detection-Using-NLP"
+      }
+    },
+    {
+      "name": "Market Basket Analysis",
+      "desc": "Utilized Apriori Analysis to implement Association Rule Learning on a dataset obtained from the UCI Machine Repository. The objective  is  to generate rules that could assist shop owners in effectively grouping products to boost sales",
+      "image": "/images/ToDo.png",
+      "category": "Machine Learning",
+      "links": {
+        "view": "",
+        "code": "https://github.com/phoenix0706/Market_Basket_Optimisation"
+      }
+    },
+    {
+      "name": "To-Do App",
+      "desc": "A simple TO-DO app built with ReactJS, MaterializeUI, CSS, HTML, and Javascript. Sign up, log in, and manage your To-Dos effortlessly. Firebase handles secure user authentication.",
+      "image": "/images/ToDo.png",
+      "category": "Web Development",
+      "links": {
+        "view": "https://todoapp-3a192.web.app/login",
+        "code": "https://github.com/phoenix0706/TodoApp-React"
+      }
+    },
+    {
+      "name": "Portfolio",
+      "desc": "Built a personal portfolio website using Next UI and NextJs",
+      "image": "instagrammern",
+      "category": "Web Development",
+      "links": {
+        "view": "https://todoapp-3a192.web.app/login",
+        "code": "https://github.com/phoenix0706/TodoApp-React"
+      }
+    }
+   
+  ]
