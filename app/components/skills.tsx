@@ -1,8 +1,5 @@
-"use-client";
 import React from "react";
 import { Card, CardBody, CardFooter, Image } from "@nextui-org/react";
-import { FaPython } from "react-icons/fa6";
-import { Category } from "@mui/icons-material";
 interface Skill {
   name: string;
   icon: string;
@@ -173,19 +170,15 @@ export default function Skills() {
       category: "Tools, Technology and Databases",
     },
   ];
-  const groupedSkills: SkillsGroup = skillslist.reduce(
-    (acc: SkillsGroup, curr: Skill) => {
-      if (!acc[curr.category]) {
-        acc[curr.category] = [];
-      }
-      acc[curr.category].push(curr);
-      return acc;
-    },
-    {}
-  );
+  const groupedSkills = skillslist.reduce((acc: SkillsGroup, curr: Skill) => {
+    if (!acc[curr.category]) {
+      acc[curr.category] = [];
+    }
+    acc[curr.category].push(curr);
+    return acc;
+  }, {});
   const renderSkills = () => {
-    return Object.keys(groupedSkills).map((category, index) => (
-      // <section key={index} id={category.toLowerCase()}>
+    return Object.keys(groupedSkills).map((category: string, index: number) => (
       <div className="bg-gray-950  p-4 rounded-lg  " key={index}>
         <h6 className="text-2xl text-center font-bold my-8">{category}</h6>
 
@@ -206,7 +199,6 @@ export default function Skills() {
                     alt={item.name}
                     src={item.icon}
                     className="object-cover h-12"
-                    // height={48}
                   />
                 </CardBody>
                 <CardFooter className="text-sm flex justify-center items-center">
@@ -222,14 +214,11 @@ export default function Skills() {
   };
 
   return (
-    <section id="skills">
+    <section id="skills" style={{ zIndex: 10 }}>
       <h1 className="text-6xl text-center font-extrabold my-16">Skills </h1>
-      {/* <div className="gap-2 grid  lg:grid-cols-8 md:grid-cols-5 sm:grid-cols-4"> */}
-
       <div className="grid lg:grid-cols-3 gap-4 md:grid-cols-2 ">
         {renderSkills()}
       </div>
-      {/* </div> */}
     </section>
   );
 }

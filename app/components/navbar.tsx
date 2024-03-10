@@ -11,7 +11,7 @@ import {
   Button,
   NavbarMenuItem,
 } from "@nextui-org/react";
-import { ThemeSwitcher } from "./ThemeSwitcher";
+// import { ThemeSwitcher } from "./ThemeSwitcher";
 
 export default function CNavbar() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -72,15 +72,18 @@ export default function CNavbar() {
             </Link>
           </NavbarItem>
           <NavbarItem>
+            <Link color="foreground" href="#blogs">
+              Blogs
+            </Link>
+          </NavbarItem>
+          <NavbarItem>
             <Button as={Link} color="secondary" href="#contact" variant="flat">
               Contact
             </Button>
           </NavbarItem>
         </NavbarContent>
         <NavbarContent justify="end">
-          <NavbarItem>
-            <ThemeSwitcher></ThemeSwitcher>
-          </NavbarItem>
+          <NavbarItem>{/* <ThemeSwitcher></ThemeSwitcher> */}</NavbarItem>
         </NavbarContent>
         <NavbarMenu>
           {menuItems.map((item, index) => (

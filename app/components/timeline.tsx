@@ -1,4 +1,3 @@
-"use client";
 import * as React from "react";
 import Timeline from "@mui/lab/Timeline";
 import TimelineItem from "@mui/lab/TimelineItem";
@@ -13,7 +12,7 @@ import LocationCityIcon from "@mui/icons-material/LocationCity";
 import BusinessIcon from "@mui/icons-material/Business";
 export default function CTimeline() {
   return (
-    <section id="timeline">
+    <section id="timeline" style={{ zIndex: 10 }}>
       <h1 className="text-6xl text-center font-extrabold my-16">Timeline </h1>
       <Timeline position="alternate">
         <TimelineItem>

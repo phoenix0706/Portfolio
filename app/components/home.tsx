@@ -1,17 +1,14 @@
-"use client";
 import React from "react";
-// import { Container, Row, Col, Spacer } from "@nextui-org/react";
 import Typewriter from "typewriter-effect";
-// import Image from "next/image";
-import { LinkedinShare, InstapaperShare } from "react-share-kit";
+import { FaHashnode } from "react-icons/fa6";
 import Link from "next/link";
 import Image from "next/image";
-import { FiGithub, FiLinkedin, FiInstagram } from "react-icons/fi";
 
+import { FiGithub, FiLinkedin, FiInstagram } from "react-icons/fi";
 export default function Intro() {
   return (
     <>
-      <section id="home">
+      <section id="home particles-js" style={{ zIndex: 10 }}>
         <div className="grid grid-cols-1 lg:grid-cols-12  my-4 lg:my-16">
           <div className="col-span-7 place-self-center">
             <h1 className="text-4xl lg:text-6xl  mb-4 font-bold ">Hello, </h1>
@@ -32,7 +29,6 @@ export default function Intro() {
                 }}
               />
             </h4>
-            {/* <FiGithub></FiGithub> */}
             <div className="socials flex flex-row gap-4 my-4">
               <Link href="https://github.com/phoenix0706">
                 <FiGithub />
@@ -41,9 +37,13 @@ export default function Intro() {
                 {" "}
                 <FiLinkedin />
               </Link>
+              <Link href="https://phoenixwrites.hashnode.dev/">
+                {" "}
+                <FaHashnode />
+              </Link>
             </div>
           </div>
-
+          {/* </Skeleton> */}
           <div className="col-span-5 place-self-center mt-4 lg:mt-0">
             <div className="rounded-full w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative ">
               <Image

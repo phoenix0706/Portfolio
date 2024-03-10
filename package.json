@@ -9,12 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.15.9",
     "@mui/lab": "^5.0.0-alpha.165",
     "@mui/material": "^5.15.9",
     "@nextui-org/react": "^2.2.9",
+    "@tsparticles/configs": "^3.3.0",
+    "@tsparticles/engine": "^3.3.0",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.3.0",
     "framer-motion": "^11.0.3",
     "install": "^0.13.0",
     "next": "14.1.0",
@@ -22,10 +27,13 @@
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.0.1",
+    "react-particles": "^2.12.2",
     "react-share-kit": "^1.1.0",
     "react-simple-typewriter": "^5.0.1",
     "react-vertical-timeline-component": "^3.6.0",
     "timeline": "^3.4.1",
+    "tsparticles": "^3.3.0",
+    "tsparticles-slim": "^2.12.0",
     "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {

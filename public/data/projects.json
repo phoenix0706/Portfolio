@@ -13,7 +13,7 @@
     {
       "name": "Market Basket Analysis",
       "desc": "Utilized Apriori Analysis to implement Association Rule Learning on a dataset obtained from the UCI Machine Repository. The objective  is  to generate rules that could assist shop owners in effectively grouping products to boost sales",
-      "image": "/images/ToDo.png",
+      "image": "/images/apriori.jpg",
       "category": "Machine Learning",
       "links": {
         "view": "",
@@ -32,12 +32,12 @@
     },
     {
       "name": "Portfolio",
-      "desc": "Built a personal portfolio website using Next UI and NextJs",
-      "image": "instagrammern",
+      "desc": "Built a personal portfolio website using Next UI, tailwind css and NextJs.",
+      "image": "/images/Portfolio.png",
       "category": "Web Development",
       "links": {
         "view": "https://todoapp-3a192.web.app/login",
-        "code": "https://github.com/phoenix0706/TodoApp-React"
+        "code": "https://github.com/phoenix0706/Portfolio"
       }
     }
    

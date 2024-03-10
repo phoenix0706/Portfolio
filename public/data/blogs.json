@@ -1,7 +1,60 @@
 [
     {
-        "title":"title",
-        "link":"link"
+        "name":"Unlocking the Power of FastAPI: A Comprehensive Introduction and Step-by-Step Tutorial for Building Your First FastAPI Application",
+        "link":"https://phoenixwrites.hashnode.dev/unlocking-the-power-of-fastapi-a-comprehensive-introduction-and-step-by-step-tutorial-for-building-your-first-fastapi-application"
+    },
+    {
+        "name":"Exploring FastAPI: Handling Query and Path Parameters",
+        "link":"https://phoenixwrites.hashnode.dev/exploring-fastapi-handling-query-and-path-parameters"
+    },
+    {
+        "name":"What Is An Integrated Development Environment?",
+        "link":"https://blog.codechef.com/2022/05/20/what-is-an-integrated-development-environment/"
+    },
+    {
+        "name":"Types of computer networks",
+        "link":"https://www.geeksforgeeks.org/types-of-computer-networks-2/"
+    },
+    {
+        "name":"General steps to follow in a Machine learning problem",
+        "link":"https://www.geeksforgeeks.org/general-steps-to-follow-in-a-machine-learning-problem/"
+    }
+    ,
+    {
+        "name":"Facial expression detection using deepface module in python",
+        "link":"https://www.geeksforgeeks.org/facial-expression-detection-using-deepface-module-in-python/"
+    }
+    ,
+    {
+        "name":"What is online privacy and how is it affected?",
+        "link":"https://www.geeksforgeeks.org/what-is-online-privacy-and-how-is-it-affected/"
+    },
+    {
+        "name":"What is plagiarism? Definition, types, how to avoid, Laws",
+        "link":"https://www.geeksforgeeks.org/what-is-plagiarism-definition-types-how-to-avoid-laws/"
+    },
+    {
+        "name":"How to communicate safely over Internet?",
+        "link":"https://www.geeksforgeeks.org/how-to-communicate-safely-over-internet/"
+    },
+    {
+        "name":"Difference between job, task and process",
+        "link":"https://www.geeksforgeeks.org/difference-between-job-task-and-process/"
     }
 
+    ,
+    {
+        "name":"Difference between page and block in Operating System",
+        "link":"https://www.geeksforgeeks.org/difference-between-page-and-block-in-operating-system/"
+    }
+    ,
+    {
+        "name":"Difference between set and type",
+        "link":"https://www.geeksforgeeks.org/semantic-difference-between-set-and-type/"
+    }
+    ,
+    {
+        "name":"Difference between interactive and script mode in python programming",
+        "link":"https://www.geeksforgeeks.org/what-is-the-difference-between-interactive-and-script-mode-in-python-programming/"
+    }
 ]
