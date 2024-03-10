@@ -29,7 +29,7 @@ export default function About() {
             first prize-winning article on CodeChef. Academically, I hold a
             silver medal and a certificate of merit in B.Tech IT, along with
             commendable performance in the Graduate Aptitude Test in Engineering
-            (GATE). Additionally, I hold a "Sangeet Prabhakar" degree in
+            (GATE). Additionally, I hold a Sangeet Prabhakar degree in
             Synthesizer and have served as a Computer Science Subject Matter
             Expert at Chegg. Currently, I contribute to 4PointX Industrial
             Analytics LLP as a Data Engineer, excelling in enhancing code
