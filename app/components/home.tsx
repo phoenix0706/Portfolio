@@ -11,9 +11,9 @@ export default function Intro() {
       <section id="home particles-js" style={{ zIndex: 10 }}>
         <div className="grid grid-cols-1 lg:grid-cols-12  my-4 lg:my-16">
           <div className="col-span-7 place-self-center">
-            <h1 className="text-4xl lg:text-6xl  mb-4 font-bold ">Hello, </h1>
-            <h1 className="mb-2 text-4xl lg:text-6xl  font-bold">
-              I'm Jyoti Nigam
+            <h1 className="text-4xl lg:text-6xl  mb-4 font ">Hello, </h1>
+            <h1 className="mb-2 text-4xl lg:text-5xl  font">
+              My name is Jyoti Nigam
             </h1>
             <h4 className="text-lg lg:text-2xl">
               I am a
